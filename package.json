@@ -1,0 +1,22 @@
+{
+  "name": "mstr-react",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://bixdev01/microstrategy/asp/react",
+  "dependencies": {
+    "axios": "latest",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1",
+    "xml-js": "^1.6.2",
+    "xml2json": "latest"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "robocopy /S build \\\\BIXDEV01\\react-frontend",
+    "build & deploy": "react-scripts build && robocopy /S build \\\\BIXDEV01\\react"
+  }
+}
