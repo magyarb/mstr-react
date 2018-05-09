@@ -26,8 +26,8 @@ class App extends Component {
             },
             reportparams: {
                 taskId: 'reportExecute',
-                taskEnv: 'xhr',
-                taskContentType: 'json',
+                taskEnv: 'xml',
+                taskContentType: 'xml',
                 styleName: 'ReportGridStyle',
                 maxRows: 150000
             },
